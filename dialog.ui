@@ -71,7 +71,7 @@
     <string>Choose figure</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_Ok">
+  <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
      <x>180</x>
