@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1025</width>
+    <height>753</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Chess</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_board">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>37</y>
+      <width>611</width>
+      <height>721</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>data/Chess_Board3.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_score">
+    <property name="geometry">
+     <rect>
+      <x>785</x>
+      <y>170</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Score</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>230</y>
+      <width>261</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>Pawn</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Rook</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Bishop</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Knight</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Queen</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>King</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>Black</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>White</string>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>8</string>
+     </property>
+    </item>
+    <item row="0" column="1">
+     <property name="text">
+      <string>8</string>
+     </property>
+    </item>
+    <item row="1" column="0">
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item row="1" column="1">
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item row="2" column="0">
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item row="2" column="1">
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item row="3" column="0">
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item row="3" column="1">
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item row="4" column="0">
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item row="4" column="1">
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item row="5" column="0">
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item row="5" column="1">
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="pushButton_restart">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>460</y>
+      <width>261</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Restart</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_title">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>30</y>
+      <width>221</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Chess Game</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_turn">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>560</y>
+      <width>221</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Turn: Black</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1025</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
